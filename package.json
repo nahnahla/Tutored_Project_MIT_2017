@@ -3,10 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "concurrently \"npm run tscwatch\" \"node ./bin/www\"  ",
-    "node": "node",
-    "tsc": "tsc",
-    "tscwatch": "tsc -w"
+    "start": "tsc -w && node ./bin/www"
   },
   "dependencies": {
     "body-parser": "1.18.2",
